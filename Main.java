@@ -11,6 +11,7 @@ public class Main
         };
         ReviewAnalysis r = new ReviewAnalysis(reviews);
         System.out.println(r.getAverageRating());
+        System.out.println(r.collectComments());
     }
 
 }
